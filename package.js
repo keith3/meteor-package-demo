@@ -25,6 +25,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('lufeng:package-demo-tests');
-  api.addFiles('package-demo.js');
+  api.use('lufeng:package-demo');
+  api.addFiles('package-demo-tests.js');
 });
